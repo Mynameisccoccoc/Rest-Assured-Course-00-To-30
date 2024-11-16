@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="session03.Test_PutMethod"/>
+      <class name="session23.DemoTestComplexNestedJSONObject"/>
+      <class name="session04.CheckForValidResponse"/>
+      <class name="session18.FileUploadDemo"/>
+      <class name="session25.DemoJSONIgnore"/>
+      <class name="session08.Authorization"/>
+      <class name="session22.DemoNestedJSONPayload"/>
+      <class name="session19.OwnAPITesting"/>
+      <class name="session13.QueryRequestSpecification"/>
+      <class name="session26.DemoIgnoreProperties"/>
+      <class name="session27.DemoTest"/>
+      <class name="session31.FirstGetRequest"/>
+      <class name="session07.QueryParameterDemo"/>
+      <class name="session28.AddHeaderInRequestDemo"/>
+      <class name="session03.Test_PostMethod"/>
+      <class name="session09.AuthorizationDemo"/>
+      <class name="session14.ValidateXMLResponse"/>
+      <class name="session12.DeserializationJSonDemo"/>
+      <class name="session24.DemoJsonInclude"/>
+      <class name="session15.JsonObjecUsingJavaMapDemo"/>
+      <class name="session29.DemoResponseSpec"/>
+      <class name="session30.DemoJSONSchemaValidation"/>
+      <class name="session17.JSONObjectUsingJacksonAPI"/>
+      <class name="session20.SerializationAndDeserialization"/>
+      <class name="session10.AuthorizationDemo"/>
+      <class name="session03.Test_PatchMethod"/>
+      <class name="session05.ValidateResponseHeader"/>
+      <class name="session03.Test_DeleteMethod"/>
+      <class name="session03.Test_GetMethod"/>
+      <class name="session11.AuthorizationDemoOauth"/>
+      <class name="session16.JSONArrayDemo"/>
+      <class name="session21.JSONArrayPojoClassDemo"/>
+      <class name="session06.ValidateJsonResponseBody"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
